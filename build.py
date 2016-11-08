@@ -64,9 +64,9 @@ for repo_name in ymldata['islandora_modules'].keys():
                         v = "^" + newtag.normalized
                     newtag.add_dependency(k,v)
         if repo_name != 'islandora' and repo_name != 'tuque':
-            newtag.add_dependency('islandora/islandora', newtag.normalized)
+            newtag.add_dependency('islandora/islandora', "^" + newtag.normalized)
         elif repo_name == 'islandora':
-            newtag.add_dependency('islandora/tuque', newtag.normalized)
+            newtag.add_dependency('islandora/tuque', "^" + newtag.normalized)
         newrepo.add_tag(newtag)
     repolist[newrepo.name]=newrepo
 
