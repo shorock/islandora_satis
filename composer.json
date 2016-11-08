@@ -1,0 +1,16 @@
+{
+    "name": "shorock/islandora_satis",
+    "description": "Create a Composer Satis repository, using synthesized repos.",
+    "require": {
+        "composer/satis": "^1.0@alpha"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tom Shorock",
+            "email": "thomas@shorock.com"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "prefer-dist": true
+}

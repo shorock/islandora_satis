@@ -1,0 +1,98 @@
+name: Islandora 7.x proof-of-concept
+homepage: https://islandorapkg.shorock.com
+
+
+islandora_modules:
+  islandora:
+    - islandora/tuque: "="
+    - php: ">=5.3.0"
+    - ext-curl: "*"
+    - ext-soap: "*"
+    - ext-xsl: "*"
+  tuque:
+    - drupal/libraries: "^2.3"
+  islandora_solution_pack_book:
+    - islandora/islandora_paged_content: "="
+    - islandora/islandora_solution_pack_large_image: "="
+    - islandora/islandora_ocr: "="
+  islandora_solution_pack_collection:
+  islandora_solution_pack_image:
+  islandora_solution_pack_pdf:
+  islandora_solution_pack_audio:
+  islandora_solution_pack_compound:
+  islandora_solution_pack_disk_image:
+  islandora_solution_pack_entities:
+    - islandora/islandora_solr_search: "="
+    - islandora/islandora_solr_metadata: "="
+    - islandora/islandora_bookmark: "="
+    - islandora/islandora_solution_pack_collection: "="
+  islandora_solution_pack_large_image:
+  islandora_solution_pack_newspaper:
+    - islandora/islandora_paged_content: "="
+    - islandora/islandora_ocr: "="
+    - islandora/islandora_solution_pack_large_image: "="
+  islandora_solution_pack_video:
+  islandora_solution_pack_web_archive:
+  islandora_bagit:
+    - islandora/islandora_scholar: "="
+  islandora_batch:
+  islandora_bookmark:
+  islandora_checksum:
+  islandora_checksum_checker:
+  islandora_fits:
+  islandora_internet_archive_bookreader:
+    - drupal/libraries: "*"
+    - drupal/colorbox: "*"
+  islandora_importer:
+    - islandora/islandora_solution_pack_collection: "="
+  islandora_jwplayer:
+    - drupal/libraries: "*"
+  islandora_marcxml:
+  islandora_newspaper_batch:
+    - islandora/islandora_batch: "="
+    - islandora/islandora_solution_pack_newspaper: "="
+  islandora_book_batch:
+    - islandora/islandora_solution_pack_book: "="
+    - islandora/islandora_batch: "="
+  islandora_oai:
+    - islandora/islandora_solr_search: "="
+  islandora_ocr:
+  islandora_openseadragon:
+    - islandora/islandora_paged_content: "="
+  islandora_paged_content:
+  islandora_pathauto:
+    - drupal/pathauto: "*"
+  islandora_pdfjs:
+  islandora_populator:
+  islandora_premis:
+  islandora_simple_workflow:
+  islandora_usage_stats:
+  islandora_videojs:
+  islandora_xacml_editor:
+  islandora_xmlsitemap:
+    - islandora/islandora_solr_search: "="
+    - drupal/xmlsitemap: "^2.0"
+  islandora_xml_forms:
+    - islandora/objective_forms: "="
+    - lib-libxml: "^2.7"
+    - ext-libxml: "*"
+  islandora_form_fieldpanel:
+    - islandora/islandora_xml_forms: "="
+  islandora_solr_search:
+  islandora_solr_views:
+    - islandora/islandora_solr_search: "="
+    - drupal/views: "^3.0"
+  islandora_solr_facet_pages:
+      - islandora/islandora_solr_search: "="
+  islandora_solr_metadata:
+    - islandora/islandora_solr_search: "="
+  islandora_scholar:
+    - islandora/islandora_solr_search: "="
+  objective_forms:
+    - islandora/php_lib: "="
+  php_lib:
+  islandora_altmetrics:
+
+
+
+
