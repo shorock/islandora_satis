@@ -46,7 +46,9 @@ with no real privilege.
 $ composer install (brings in satis into vendor/)
 
 (Python virtualenv if so inclined)
+
 $ pip3 install -r requirements.txt
+
 $ GH_USER=gh_user GH_TOKEN=token python3 build.py modules.yml > satis.json
 
 $ ./vendor/bin/satis build
