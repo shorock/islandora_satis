@@ -17,16 +17,20 @@ islandora_modules:
     - islandora/islandora_ocr: "="
   islandora_solution_pack_collection:
   islandora_solution_pack_image:
+    - drupal/imagemagick: "*"
   islandora_solution_pack_pdf:
+    - drupal/imagemagick: "*"
   islandora_solution_pack_audio:
   islandora_solution_pack_compound:
   islandora_solution_pack_disk_image:
+    - drupal/imagemagick: "*"
   islandora_solution_pack_entities:
     - islandora/islandora_solr_search: "="
     - islandora/islandora_solr_metadata: "="
     - islandora/islandora_bookmark: "="
     - islandora/islandora_solution_pack_collection: "="
   islandora_solution_pack_large_image:
+    - drupal/imagemagick: "*"
   islandora_solution_pack_newspaper:
     - islandora/islandora_paged_content: "="
     - islandora/islandora_ocr: "="
@@ -67,6 +71,11 @@ islandora_modules:
   islandora_premis:
   islandora_simple_workflow:
   islandora_usage_stats:
+    - islandora/islandora_solution_pack_collection: "="
+    - drupal/views: "^3.0"
+    - drupal/date: "*"
+    - drupal/datepicker: "*"
+    - drupal/views_data_export: "*"
   islandora_videojs:
   islandora_xacml_editor:
   islandora_xmlsitemap:
