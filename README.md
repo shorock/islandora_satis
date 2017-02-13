@@ -52,4 +52,4 @@ $ GH_USER=gh_user GH_TOKEN=token python3 build.py modules.yml > satis.json
 
 $ ./vendor/bin/satis build
 
-You can then symlink the output/ directory into your webroot, or upload it somewhere. 
+You can then symlink the output/ directory into your webroot, or upload it somewhere. I have it attached here as `docs/`, so it can be found through https://shorock.github.io/islandora_satis (GitHub Pages) 
