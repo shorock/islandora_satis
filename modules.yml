@@ -38,7 +38,7 @@ islandora_modules:
   islandora_solution_pack_video:
   islandora_solution_pack_web_archive:
   islandora_bagit:
-    - islandora/islandora_scholar: "="
+    - drupal/libraries: "*"
   islandora_batch:
   islandora_bookmark:
   islandora_checksum:
