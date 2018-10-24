@@ -3,21 +3,14 @@
 One of the major shifts in Drupal has been toward using 
 [Composer-based workflows](https://www.drupal.org/docs/develop/using-composer/using-composer-to-manage-drupal-site-dependencies). 
  
-At DrupalCon New Orleans, Drupal.org announced the availability of supported Composer/Packagist style versions of the
- Drupal ecosystem at [https://packages.drupal.org/7](https://packages.drupal.org/7/packages.json) 
- and [https://packages.drupal.org/8](https://packages.drupal.org/8/packages.json).
  
 ### Version numbering
 
-Composer is understandably wedded to comparable semantic versioning (x.y.z), while Drupal (and Islandora) practice has had release tags 
-in the 7.x-1.x family.  After rather quite a bit of debate, the Drupal community has decided that tag 7.x-1.3 should map to Composer version
-"1.3.0" in the "/7" endpoint.  It seems reasonable that Islandora would follow suit.
+Composer uses one semantic versioning (x.y.z), while Drupal (and Islandora) practice has had release tags 
+in the '7.x-1.x' style. The Drupal community has decided that tag 7.x-1.3 should map to Composer version
+"1.3.0" in the "packages.drupal.org/7" endpoint.  It seems reasonable that Islandora should follow suit.
 
-The [internal-to-Drupal.org project](https://www.drupal.org/project/project_composer) (you may hear it called "the façade")  that maps D.o packages to those
-packages.drupal.org endpoints is not terribly easy to apply to other projects.  It does some very cool things 
-for drupal.org packages, including mapping module.info dependencies into Composer dependencies.
-
-Drupal modules get Composer type "drupal-module" and Libraries "drupal-library".  
+Drupal modules get Composer type "drupal-module" and Libraries "drupal-library".
 The common [drupal-project template](https://github.com/drupal-composer/drupal-project)
 puts those in reasonable locations (like sites/all/modules/contrib for D7 installs).
 
@@ -26,15 +19,15 @@ simple static repo [generator called Satis](https://github.com/composer/satis).
 
 ### Fake composer.jsons
 
-The Islandora 7.x modules have not included composer.json files in their releases.  It is possible to make a verbose
- satis.json file that mocks up what would have been in composer.jsons, had they been included.
+The Islandora 7.x modules do not generally include composer.json files in their releases.  It is possible to make a verbose
+ satis.json file that mocks up what would have been in composer.jsons, if they had been included.
  
 ### Build a builder
 
 In a fit of yak-shaving, I built a generator-generator.  It's Python 3 (yeah, yeah, PHP project, coulda-woulda).
 
-build.py turns modules.yml into satis.json. The Satis (PHP-CLI) package turns satis.json into a static repository based
-on GitHub tags.
+build.py turns `modules.yml` into `satis.json`. The Satis (PHP-CLI) package turns `satis.json` into a static repository based
+on release tag info from GitHub.
 
 ### Install and use
 
