@@ -420,6 +420,30 @@
                 },
                 "type": "drupal-module"
             },
+            "1.12.0": {
+                "name": "Islandora/islandora",
+                "version": "1.12.0",
+                "version_normalized": "1.12.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Islandora/islandora",
+                    "reference": "22645b4e316db5d92b7b542d992b371edd10778e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/islandora/islandora/archive/22645b4e316db5d92b7b542d992b371edd10778e.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "ext-curl": "*",
+                    "ext-soap": "*",
+                    "ext-xsl": "*",
+                    "islandora/tuque": "^1.12.0",
+                    "php": ">=5.3.0"
+                },
+                "type": "drupal-module"
+            },
             "1.2.0": {
                 "name": "Islandora/islandora",
                 "version": "1.2.0",
@@ -674,6 +698,27 @@
                 },
                 "type": "drupal-module"
             },
+            "1.12.0": {
+                "name": "Islandora/islandora_bagit",
+                "version": "1.12.0",
+                "version_normalized": "1.12.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Islandora/islandora_bagit",
+                    "reference": "46f501265acb7c4f350a15a9bd845786e22325ff"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/islandora/islandora_bagit/archive/46f501265acb7c4f350a15a9bd845786e22325ff.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "drupal/libraries": "*",
+                    "islandora/islandora": "^1.12.0"
+                },
+                "type": "drupal-module"
+            },
             "1.3.0": {
                 "name": "Islandora/islandora_bagit",
                 "version": "1.3.0",
@@ -875,6 +920,26 @@
                 },
                 "require": {
                     "islandora/islandora": "^1.11.0"
+                },
+                "type": "drupal-module"
+            },
+            "1.12.0": {
+                "name": "Islandora/islandora_batch",
+                "version": "1.12.0",
+                "version_normalized": "1.12.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Islandora/islandora_batch",
+                    "reference": "e0a04ce599291f6dd4b19e1cd1086d2bf48f2a26"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/islandora/islandora_batch/archive/e0a04ce599291f6dd4b19e1cd1086d2bf48f2a26.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "islandora/islandora": "^1.12.0"
                 },
                 "type": "drupal-module"
             },
@@ -1095,6 +1160,28 @@
                     "islandora/islandora": "^1.11.0",
                     "islandora/islandora_batch": "^1.11.0",
                     "islandora/islandora_solution_pack_book": "^1.11.0"
+                },
+                "type": "drupal-module"
+            },
+            "1.12.0": {
+                "name": "Islandora/islandora_book_batch",
+                "version": "1.12.0",
+                "version_normalized": "1.12.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Islandora/islandora_book_batch",
+                    "reference": "ad0167400653958ab45f0ff870a2d357f5ce0784"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/islandora/islandora_book_batch/archive/ad0167400653958ab45f0ff870a2d357f5ce0784.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "islandora/islandora": "^1.12.0",
+                    "islandora/islandora_batch": "^1.12.0",
+                    "islandora/islandora_solution_pack_book": "^1.12.0"
                 },
                 "type": "drupal-module"
             },
@@ -1352,6 +1439,26 @@
                 },
                 "type": "drupal-module"
             },
+            "1.12.0": {
+                "name": "Islandora/islandora_bookmark",
+                "version": "1.12.0",
+                "version_normalized": "1.12.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Islandora/islandora_bookmark",
+                    "reference": "3619a90b8048394e5544264b936ef145fe316e23"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/islandora/islandora_bookmark/archive/3619a90b8048394e5544264b936ef145fe316e23.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "islandora/islandora": "^1.12.0"
+                },
+                "type": "drupal-module"
+            },
             "1.2.0": {
                 "name": "Islandora/islandora_bookmark",
                 "version": "1.2.0",
@@ -1568,6 +1675,26 @@
                 },
                 "type": "drupal-module"
             },
+            "1.12.0": {
+                "name": "Islandora/islandora_checksum",
+                "version": "1.12.0",
+                "version_normalized": "1.12.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Islandora/islandora_checksum",
+                    "reference": "26ea29b5d5dc49d21922562fb2b3d29fb2049088"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/islandora/islandora_checksum/archive/26ea29b5d5dc49d21922562fb2b3d29fb2049088.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "islandora/islandora": "^1.12.0"
+                },
+                "type": "drupal-module"
+            },
             "1.3.0": {
                 "name": "Islandora/islandora_checksum",
                 "version": "1.3.0",
@@ -1761,6 +1888,26 @@
                 },
                 "require": {
                     "islandora/islandora": "^1.11.0"
+                },
+                "type": "drupal-module"
+            },
+            "1.12.0": {
+                "name": "Islandora/islandora_checksum_checker",
+                "version": "1.12.0",
+                "version_normalized": "1.12.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Islandora/islandora_checksum_checker",
+                    "reference": "a650d694ec69756ba4b71577c7c453fba0b16237"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/islandora/islandora_checksum_checker/archive/a650d694ec69756ba4b71577c7c453fba0b16237.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "islandora/islandora": "^1.12.0"
                 },
                 "type": "drupal-module"
             },
@@ -1977,6 +2124,26 @@
                 },
                 "require": {
                     "islandora/islandora": "^1.11.0"
+                },
+                "type": "drupal-module"
+            },
+            "1.12.0": {
+                "name": "Islandora/islandora_fits",
+                "version": "1.12.0",
+                "version_normalized": "1.12.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Islandora/islandora_fits",
+                    "reference": "db0385f0fb7d8ef20c2f0ac318f4b117472c824c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/islandora/islandora_fits/archive/db0385f0fb7d8ef20c2f0ac318f4b117472c824c.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "islandora/islandora": "^1.12.0"
                 },
                 "type": "drupal-module"
             },
@@ -2198,6 +2365,27 @@
                 },
                 "type": "drupal-module"
             },
+            "1.12.0": {
+                "name": "Islandora/islandora_form_fieldpanel",
+                "version": "1.12.0",
+                "version_normalized": "1.12.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Islandora/islandora_form_fieldpanel",
+                    "reference": "06e07d39dd74d290d4d76d6e11b09e43bf441e7d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/islandora/islandora_form_fieldpanel/archive/06e07d39dd74d290d4d76d6e11b09e43bf441e7d.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "islandora/islandora": "^1.12.0",
+                    "islandora/islandora_xml_forms": "^1.12.0"
+                },
+                "type": "drupal-module"
+            },
             "1.6.0": {
                 "name": "Islandora/islandora_form_fieldpanel",
                 "version": "1.6.0",
@@ -2359,6 +2547,27 @@
                 "require": {
                     "islandora/islandora": "^1.11.0",
                     "islandora/islandora_solution_pack_collection": "^1.11.0"
+                },
+                "type": "drupal-module"
+            },
+            "1.12.0": {
+                "name": "Islandora/islandora_importer",
+                "version": "1.12.0",
+                "version_normalized": "1.12.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Islandora/islandora_importer",
+                    "reference": "e25db9c0b820dbaf11d647adfd60dc1188b98ff8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/islandora/islandora_importer/archive/e25db9c0b820dbaf11d647adfd60dc1188b98ff8.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "islandora/islandora": "^1.12.0",
+                    "islandora/islandora_solution_pack_collection": "^1.12.0"
                 },
                 "type": "drupal-module"
             },
@@ -2610,6 +2819,28 @@
                     "drupal/colorbox": "*",
                     "drupal/libraries": "*",
                     "islandora/islandora": "^1.11.0"
+                },
+                "type": "drupal-module"
+            },
+            "1.12.0": {
+                "name": "Islandora/islandora_internet_archive_bookreader",
+                "version": "1.12.0",
+                "version_normalized": "1.12.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Islandora/islandora_internet_archive_bookreader",
+                    "reference": "4b03359246222f7773a6416a01f927ce22b19a2e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/islandora/islandora_internet_archive_bookreader/archive/4b03359246222f7773a6416a01f927ce22b19a2e.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "drupal/colorbox": "*",
+                    "drupal/libraries": "*",
+                    "islandora/islandora": "^1.12.0"
                 },
                 "type": "drupal-module"
             },
@@ -2867,6 +3098,26 @@
                 },
                 "type": "drupal-module"
             },
+            "1.12.0": {
+                "name": "Islandora/islandora_marcxml",
+                "version": "1.12.0",
+                "version_normalized": "1.12.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Islandora/islandora_marcxml",
+                    "reference": "6e4e9a0cc0b3e20e31435d9cf94e262104716b72"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/islandora/islandora_marcxml/archive/6e4e9a0cc0b3e20e31435d9cf94e262104716b72.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "islandora/islandora": "^1.12.0"
+                },
+                "type": "drupal-module"
+            },
             "1.2.0": {
                 "name": "Islandora/islandora_marcxml",
                 "version": "1.2.0",
@@ -3087,6 +3338,28 @@
                 },
                 "type": "drupal-module"
             },
+            "1.12.0": {
+                "name": "Islandora/islandora_newspaper_batch",
+                "version": "1.12.0",
+                "version_normalized": "1.12.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Islandora/islandora_newspaper_batch",
+                    "reference": "824bfb3bde57897a36187ba65611cb52ed746a5d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/islandora/islandora_newspaper_batch/archive/824bfb3bde57897a36187ba65611cb52ed746a5d.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "islandora/islandora": "^1.12.0",
+                    "islandora/islandora_batch": "^1.12.0",
+                    "islandora/islandora_solution_pack_newspaper": "^1.12.0"
+                },
+                "type": "drupal-module"
+            },
             "1.6.0": {
                 "name": "Islandora/islandora_newspaper_batch",
                 "version": "1.6.0",
@@ -3253,6 +3526,27 @@
                 "require": {
                     "islandora/islandora": "^1.11.0",
                     "islandora/islandora_solr_search": "^1.11.0"
+                },
+                "type": "drupal-module"
+            },
+            "1.12.0": {
+                "name": "Islandora/islandora_oai",
+                "version": "1.12.0",
+                "version_normalized": "1.12.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Islandora/islandora_oai",
+                    "reference": "266f142e0c02664861e4d593b06f5ebc6e55efed"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/islandora/islandora_oai/archive/266f142e0c02664861e4d593b06f5ebc6e55efed.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "islandora/islandora": "^1.12.0",
+                    "islandora/islandora_solr_search": "^1.12.0"
                 },
                 "type": "drupal-module"
             },
@@ -3501,6 +3795,26 @@
                 },
                 "type": "drupal-module"
             },
+            "1.12.0": {
+                "name": "Islandora/islandora_ocr",
+                "version": "1.12.0",
+                "version_normalized": "1.12.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Islandora/islandora_ocr",
+                    "reference": "263cd9db1563e6f52dad38da5ad933dfc7ba4457"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/islandora/islandora_ocr/archive/263cd9db1563e6f52dad38da5ad933dfc7ba4457.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "islandora/islandora": "^1.12.0"
+                },
+                "type": "drupal-module"
+            },
             "1.2.0": {
                 "name": "Islandora/islandora_ocr",
                 "version": "1.2.0",
@@ -3737,6 +4051,27 @@
                 "require": {
                     "islandora/islandora": "^1.11.0",
                     "islandora/islandora_paged_content": "^1.11.0"
+                },
+                "type": "drupal-module"
+            },
+            "1.12.0": {
+                "name": "Islandora/islandora_openseadragon",
+                "version": "1.12.0",
+                "version_normalized": "1.12.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Islandora/islandora_openseadragon",
+                    "reference": "e1f63a44f2c26a1a37c34493b74b2793f6438783"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/islandora/islandora_openseadragon/archive/e1f63a44f2c26a1a37c34493b74b2793f6438783.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "islandora/islandora": "^1.12.0",
+                    "islandora/islandora_paged_content": "^1.12.0"
                 },
                 "type": "drupal-module"
             },
@@ -3985,6 +4320,26 @@
                 },
                 "type": "drupal-module"
             },
+            "1.12.0": {
+                "name": "Islandora/islandora_paged_content",
+                "version": "1.12.0",
+                "version_normalized": "1.12.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Islandora/islandora_paged_content",
+                    "reference": "0ea26d3e9ad44e5b6b2aefad63ecf8d2cdaa2351"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/islandora/islandora_paged_content/archive/0ea26d3e9ad44e5b6b2aefad63ecf8d2cdaa2351.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "islandora/islandora": "^1.12.0"
+                },
+                "type": "drupal-module"
+            },
             "1.2.0": {
                 "name": "Islandora/islandora_paged_content",
                 "version": "1.2.0",
@@ -4203,6 +4558,27 @@
                 },
                 "type": "drupal-module"
             },
+            "1.12.0": {
+                "name": "Islandora/islandora_pathauto",
+                "version": "1.12.0",
+                "version_normalized": "1.12.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Islandora/islandora_pathauto",
+                    "reference": "ff3abaa82805d0e7dcc0ae5b56f272b978831bdb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/islandora/islandora_pathauto/archive/ff3abaa82805d0e7dcc0ae5b56f272b978831bdb.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "drupal/pathauto": "*",
+                    "islandora/islandora": "^1.12.0"
+                },
+                "type": "drupal-module"
+            },
             "1.5.0": {
                 "name": "Islandora/islandora_pathauto",
                 "version": "1.5.0",
@@ -4365,6 +4741,26 @@
                 },
                 "type": "drupal-module"
             },
+            "1.12.0": {
+                "name": "Islandora/islandora_pdfjs",
+                "version": "1.12.0",
+                "version_normalized": "1.12.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Islandora/islandora_pdfjs",
+                    "reference": "7d858a997510062fe51955a7e1e4422661e2f9c8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/islandora/islandora_pdfjs/archive/7d858a997510062fe51955a7e1e4422661e2f9c8.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "islandora/islandora": "^1.12.0"
+                },
+                "type": "drupal-module"
+            },
             "1.5.0": {
                 "name": "Islandora/islandora_pdfjs",
                 "version": "1.5.0",
@@ -4521,6 +4917,26 @@
                 },
                 "type": "drupal-module"
             },
+            "1.12.0": {
+                "name": "Islandora/islandora_populator",
+                "version": "1.12.0",
+                "version_normalized": "1.12.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Islandora/islandora_populator",
+                    "reference": "8afb7ba7aa98cc41f553ebfa2c3f172d1ab2f5b5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/islandora/islandora_populator/archive/8afb7ba7aa98cc41f553ebfa2c3f172d1ab2f5b5.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "islandora/islandora": "^1.12.0"
+                },
+                "type": "drupal-module"
+            },
             "1.6.0": {
                 "name": "Islandora/islandora_populator",
                 "version": "1.6.0",
@@ -4654,6 +5070,26 @@
                 },
                 "require": {
                     "islandora/islandora": "^1.11.0"
+                },
+                "type": "drupal-module"
+            },
+            "1.12.0": {
+                "name": "Islandora/islandora_premis",
+                "version": "1.12.0",
+                "version_normalized": "1.12.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Islandora/islandora_premis",
+                    "reference": "203eb946e01566b04dd3e893c4626504bb7f991b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/islandora/islandora_premis/archive/203eb946e01566b04dd3e893c4626504bb7f991b.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "islandora/islandora": "^1.12.0"
                 },
                 "type": "drupal-module"
             },
@@ -4873,6 +5309,27 @@
                 "require": {
                     "islandora/islandora": "^1.11.0",
                     "islandora/islandora_solr_search": "^1.11.0"
+                },
+                "type": "drupal-module"
+            },
+            "1.12.0": {
+                "name": "Islandora/islandora_scholar",
+                "version": "1.12.0",
+                "version_normalized": "1.12.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Islandora/islandora_scholar",
+                    "reference": "e35f6c762c827b16c24606cd393f98970ed0c222"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/islandora/islandora_scholar/archive/e35f6c762c827b16c24606cd393f98970ed0c222.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "islandora/islandora": "^1.12.0",
+                    "islandora/islandora_solr_search": "^1.12.0"
                 },
                 "type": "drupal-module"
             },
@@ -5100,6 +5557,26 @@
                 },
                 "type": "drupal-module"
             },
+            "1.12.0": {
+                "name": "Islandora/islandora_simple_workflow",
+                "version": "1.12.0",
+                "version_normalized": "1.12.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Islandora/islandora_simple_workflow",
+                    "reference": "ce54ac70550661ac621f54876c5138088b417ead"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/islandora/islandora_simple_workflow/archive/ce54ac70550661ac621f54876c5138088b417ead.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "islandora/islandora": "^1.12.0"
+                },
+                "type": "drupal-module"
+            },
             "1.2.0": {
                 "name": "Islandora/islandora_simple_workflow",
                 "version": "1.2.0",
@@ -5318,6 +5795,27 @@
                 },
                 "type": "drupal-module"
             },
+            "1.12.0": {
+                "name": "Islandora/islandora_solr_facet_pages",
+                "version": "1.12.0",
+                "version_normalized": "1.12.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Islandora/islandora_solr_facet_pages",
+                    "reference": "a43ca732eaa9489df567c11cbbc08e007ebc35ef"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/islandora/islandora_solr_facet_pages/archive/a43ca732eaa9489df567c11cbbc08e007ebc35ef.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "islandora/islandora": "^1.12.0",
+                    "islandora/islandora_solr_search": "^1.12.0"
+                },
+                "type": "drupal-module"
+            },
             "1.3.0": {
                 "name": "Islandora/islandora_solr_facet_pages",
                 "version": "1.3.0",
@@ -5521,6 +6019,27 @@
                 "require": {
                     "islandora/islandora": "^1.11.0",
                     "islandora/islandora_solr_search": "^1.11.0"
+                },
+                "type": "drupal-module"
+            },
+            "1.12.0": {
+                "name": "Islandora/islandora_solr_metadata",
+                "version": "1.12.0",
+                "version_normalized": "1.12.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Islandora/islandora_solr_metadata",
+                    "reference": "a31c8f8786bb19c33376080235b96fc067b6d718"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/islandora/islandora_solr_metadata/archive/a31c8f8786bb19c33376080235b96fc067b6d718.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "islandora/islandora": "^1.12.0",
+                    "islandora/islandora_solr_search": "^1.12.0"
                 },
                 "type": "drupal-module"
             },
@@ -5765,6 +6284,26 @@
                 },
                 "require": {
                     "islandora/islandora": "^1.11.0"
+                },
+                "type": "drupal-module"
+            },
+            "1.12.0": {
+                "name": "Islandora/islandora_solr_search",
+                "version": "1.12.0",
+                "version_normalized": "1.12.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Islandora/islandora_solr_search",
+                    "reference": "a2a5e306f80c0c06b7a688b03e12a4568d7f5555"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/islandora/islandora_solr_search/archive/a2a5e306f80c0c06b7a688b03e12a4568d7f5555.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "islandora/islandora": "^1.12.0"
                 },
                 "type": "drupal-module"
             },
@@ -6032,6 +6571,28 @@
                 },
                 "type": "drupal-module"
             },
+            "1.12.0": {
+                "name": "Islandora/islandora_solr_views",
+                "version": "1.12.0",
+                "version_normalized": "1.12.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Islandora/islandora_solr_views",
+                    "reference": "2980c9d9a66a00a3fbcb364723487ef85ba809a4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/islandora/islandora_solr_views/archive/2980c9d9a66a00a3fbcb364723487ef85ba809a4.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "drupal/views": "^3.0",
+                    "islandora/islandora": "^1.12.0",
+                    "islandora/islandora_solr_search": "^1.12.0"
+                },
+                "type": "drupal-module"
+            },
             "1.2.0": {
                 "name": "Islandora/islandora_solr_views",
                 "version": "1.2.0",
@@ -6261,6 +6822,26 @@
                 },
                 "require": {
                     "islandora/islandora": "^1.11.0"
+                },
+                "type": "drupal-module"
+            },
+            "1.12.0": {
+                "name": "Islandora/islandora_solution_pack_audio",
+                "version": "1.12.0",
+                "version_normalized": "1.12.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Islandora/islandora_solution_pack_audio",
+                    "reference": "8fc3adbe0be42a265e238a82fea31d2103f0e818"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/islandora/islandora_solution_pack_audio/archive/8fc3adbe0be42a265e238a82fea31d2103f0e818.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "islandora/islandora": "^1.12.0"
                 },
                 "type": "drupal-module"
             },
@@ -6506,6 +7087,29 @@
                     "islandora/islandora_ocr": "^1.11.0",
                     "islandora/islandora_paged_content": "^1.11.0",
                     "islandora/islandora_solution_pack_large_image": "^1.11.0"
+                },
+                "type": "drupal-module"
+            },
+            "1.12.0": {
+                "name": "Islandora/islandora_solution_pack_book",
+                "version": "1.12.0",
+                "version_normalized": "1.12.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Islandora/islandora_solution_pack_book",
+                    "reference": "16575e7504cf86ca98f2c493f2f0b9b552b3144c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/islandora/islandora_solution_pack_book/archive/16575e7504cf86ca98f2c493f2f0b9b552b3144c.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "islandora/islandora": "^1.12.0",
+                    "islandora/islandora_ocr": "^1.12.0",
+                    "islandora/islandora_paged_content": "^1.12.0",
+                    "islandora/islandora_solution_pack_large_image": "^1.12.0"
                 },
                 "type": "drupal-module"
             },
@@ -6792,6 +7396,26 @@
                 },
                 "type": "drupal-module"
             },
+            "1.12.0": {
+                "name": "Islandora/islandora_solution_pack_collection",
+                "version": "1.12.0",
+                "version_normalized": "1.12.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Islandora/islandora_solution_pack_collection",
+                    "reference": "083ea28d98a4c324f89c8831f3d80ce2ea41c4cf"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/islandora/islandora_solution_pack_collection/archive/083ea28d98a4c324f89c8831f3d80ce2ea41c4cf.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "islandora/islandora": "^1.12.0"
+                },
+                "type": "drupal-module"
+            },
             "1.2.0": {
                 "name": "Islandora/islandora_solution_pack_collection",
                 "version": "1.2.0",
@@ -7005,6 +7629,26 @@
                 },
                 "require": {
                     "islandora/islandora": "^1.11.0"
+                },
+                "type": "drupal-module"
+            },
+            "1.12.0": {
+                "name": "Islandora/islandora_solution_pack_compound",
+                "version": "1.12.0",
+                "version_normalized": "1.12.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Islandora/islandora_solution_pack_compound",
+                    "reference": "30e1ed6fc1150f90b9cde3c0d710f96d2f92ce82"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/islandora/islandora_solution_pack_compound/archive/30e1ed6fc1150f90b9cde3c0d710f96d2f92ce82.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "islandora/islandora": "^1.12.0"
                 },
                 "type": "drupal-module"
             },
@@ -7226,6 +7870,27 @@
                 },
                 "type": "drupal-module"
             },
+            "1.12.0": {
+                "name": "Islandora/islandora_solution_pack_disk_image",
+                "version": "1.12.0",
+                "version_normalized": "1.12.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Islandora/islandora_solution_pack_disk_image",
+                    "reference": "77fef98fd211df15485de370d0266c89d90cd878"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/islandora/islandora_solution_pack_disk_image/archive/77fef98fd211df15485de370d0266c89d90cd878.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "drupal/imagemagick": "*",
+                    "islandora/islandora": "^1.12.0"
+                },
+                "type": "drupal-module"
+            },
             "1.5.0": {
                 "name": "Islandora/islandora_solution_pack_disk_image",
                 "version": "1.5.0",
@@ -7393,6 +8058,30 @@
                     "islandora/islandora_solr_metadata": "^1.11.0",
                     "islandora/islandora_solr_search": "^1.11.0",
                     "islandora/islandora_solution_pack_collection": "^1.11.0"
+                },
+                "type": "drupal-module"
+            },
+            "1.12.0": {
+                "name": "Islandora/islandora_solution_pack_entities",
+                "version": "1.12.0",
+                "version_normalized": "1.12.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Islandora/islandora_solution_pack_entities",
+                    "reference": "4a3186996c8bad31d94278d02d5538a55c379324"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/islandora/islandora_solution_pack_entities/archive/4a3186996c8bad31d94278d02d5538a55c379324.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "islandora/islandora": "^1.12.0",
+                    "islandora/islandora_bookmark": "^1.12.0",
+                    "islandora/islandora_solr_metadata": "^1.12.0",
+                    "islandora/islandora_solr_search": "^1.12.0",
+                    "islandora/islandora_solution_pack_collection": "^1.12.0"
                 },
                 "type": "drupal-module"
             },
@@ -7617,6 +8306,27 @@
                 "require": {
                     "drupal/imagemagick": "*",
                     "islandora/islandora": "^1.11.0"
+                },
+                "type": "drupal-module"
+            },
+            "1.12.0": {
+                "name": "Islandora/islandora_solution_pack_image",
+                "version": "1.12.0",
+                "version_normalized": "1.12.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Islandora/islandora_solution_pack_image",
+                    "reference": "5d834fdfc8163c473b964e87fc175f6f46db2f31"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/islandora/islandora_solution_pack_image/archive/5d834fdfc8163c473b964e87fc175f6f46db2f31.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "drupal/imagemagick": "*",
+                    "islandora/islandora": "^1.12.0"
                 },
                 "type": "drupal-module"
             },
@@ -7868,6 +8578,27 @@
                 },
                 "type": "drupal-module"
             },
+            "1.12.0": {
+                "name": "Islandora/islandora_solution_pack_large_image",
+                "version": "1.12.0",
+                "version_normalized": "1.12.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Islandora/islandora_solution_pack_large_image",
+                    "reference": "0476e28c632415f710eb87d45bbfbee273052319"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/islandora/islandora_solution_pack_large_image/archive/0476e28c632415f710eb87d45bbfbee273052319.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "drupal/imagemagick": "*",
+                    "islandora/islandora": "^1.12.0"
+                },
+                "type": "drupal-module"
+            },
             "1.2.0": {
                 "name": "Islandora/islandora_solution_pack_large_image",
                 "version": "1.2.0",
@@ -8096,6 +8827,29 @@
                     "islandora/islandora_ocr": "^1.11.0",
                     "islandora/islandora_paged_content": "^1.11.0",
                     "islandora/islandora_solution_pack_large_image": "^1.11.0"
+                },
+                "type": "drupal-module"
+            },
+            "1.12.0": {
+                "name": "Islandora/islandora_solution_pack_newspaper",
+                "version": "1.12.0",
+                "version_normalized": "1.12.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Islandora/islandora_solution_pack_newspaper",
+                    "reference": "c6c0dc5956ed3c83558f3bfcd8d28c1f5bb91d46"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/islandora/islandora_solution_pack_newspaper/archive/c6c0dc5956ed3c83558f3bfcd8d28c1f5bb91d46.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "islandora/islandora": "^1.12.0",
+                    "islandora/islandora_ocr": "^1.12.0",
+                    "islandora/islandora_paged_content": "^1.12.0",
+                    "islandora/islandora_solution_pack_large_image": "^1.12.0"
                 },
                 "type": "drupal-module"
             },
@@ -8386,6 +9140,27 @@
                 },
                 "type": "drupal-module"
             },
+            "1.12.0": {
+                "name": "Islandora/islandora_solution_pack_pdf",
+                "version": "1.12.0",
+                "version_normalized": "1.12.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Islandora/islandora_solution_pack_pdf",
+                    "reference": "062bab23948b0d891bd65ffa7549601cbaf720cd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/islandora/islandora_solution_pack_pdf/archive/062bab23948b0d891bd65ffa7549601cbaf720cd.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "drupal/imagemagick": "*",
+                    "islandora/islandora": "^1.12.0"
+                },
+                "type": "drupal-module"
+            },
             "1.2.0": {
                 "name": "Islandora/islandora_solution_pack_pdf",
                 "version": "1.2.0",
@@ -8631,6 +9406,26 @@
                 },
                 "type": "drupal-module"
             },
+            "1.12.0": {
+                "name": "Islandora/islandora_solution_pack_video",
+                "version": "1.12.0",
+                "version_normalized": "1.12.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Islandora/islandora_solution_pack_video",
+                    "reference": "78a3eef0b409668b05045abc4b8299c44363da96"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/islandora/islandora_solution_pack_video/archive/78a3eef0b409668b05045abc4b8299c44363da96.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "islandora/islandora": "^1.12.0"
+                },
+                "type": "drupal-module"
+            },
             "1.2.0": {
                 "name": "Islandora/islandora_solution_pack_video",
                 "version": "1.2.0",
@@ -8844,6 +9639,26 @@
                 },
                 "require": {
                     "islandora/islandora": "^1.11.0"
+                },
+                "type": "drupal-module"
+            },
+            "1.12.0": {
+                "name": "Islandora/islandora_solution_pack_web_archive",
+                "version": "1.12.0",
+                "version_normalized": "1.12.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Islandora/islandora_solution_pack_web_archive",
+                    "reference": "810546608dac8372420a2fc55138641dacd78617"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/islandora/islandora_solution_pack_web_archive/archive/810546608dac8372420a2fc55138641dacd78617.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "islandora/islandora": "^1.12.0"
                 },
                 "type": "drupal-module"
             },
@@ -9073,6 +9888,31 @@
                 },
                 "type": "drupal-module"
             },
+            "1.12.0": {
+                "name": "Islandora/islandora_usage_stats",
+                "version": "1.12.0",
+                "version_normalized": "1.12.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Islandora/islandora_usage_stats",
+                    "reference": "af77e0334d15e3fae5b0ffce41bc3f5b09fea767"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/islandora/islandora_usage_stats/archive/af77e0334d15e3fae5b0ffce41bc3f5b09fea767.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "drupal/date": "*",
+                    "drupal/datepicker": "*",
+                    "drupal/views": "^3.0",
+                    "drupal/views_data_export": "*",
+                    "islandora/islandora": "^1.12.0",
+                    "islandora/islandora_solution_pack_collection": "^1.12.0"
+                },
+                "type": "drupal-module"
+            },
             "1.6.0": {
                 "name": "Islandora/islandora_usage_stats",
                 "version": "1.6.0",
@@ -9231,6 +10071,26 @@
                 },
                 "require": {
                     "islandora/islandora": "^1.11.0"
+                },
+                "type": "drupal-module"
+            },
+            "1.12.0": {
+                "name": "Islandora/islandora_videojs",
+                "version": "1.12.0",
+                "version_normalized": "1.12.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Islandora/islandora_videojs",
+                    "reference": "d0abeaf48f3f03625c23c73339bf98f456256ffc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/islandora/islandora_videojs/archive/d0abeaf48f3f03625c23c73339bf98f456256ffc.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "islandora/islandora": "^1.12.0"
                 },
                 "type": "drupal-module"
             },
@@ -9407,6 +10267,26 @@
                 },
                 "require": {
                     "islandora/islandora": "^1.11.0"
+                },
+                "type": "drupal-module"
+            },
+            "1.12.0": {
+                "name": "Islandora/islandora_xacml_editor",
+                "version": "1.12.0",
+                "version_normalized": "1.12.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Islandora/islandora_xacml_editor",
+                    "reference": "f88e955ba5d2c4b3054ff0ac62bcff4a65e25dfd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/islandora/islandora_xacml_editor/archive/f88e955ba5d2c4b3054ff0ac62bcff4a65e25dfd.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "islandora/islandora": "^1.12.0"
                 },
                 "type": "drupal-module"
             },
@@ -9678,6 +10558,29 @@
                 },
                 "type": "drupal-module"
             },
+            "1.12.0": {
+                "name": "Islandora/islandora_xml_forms",
+                "version": "1.12.0",
+                "version_normalized": "1.12.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Islandora/islandora_xml_forms",
+                    "reference": "baf9332a4c2cc5109dc09f83a064f51fd79a03cd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/islandora/islandora_xml_forms/archive/baf9332a4c2cc5109dc09f83a064f51fd79a03cd.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "ext-libxml": "*",
+                    "islandora/islandora": "^1.12.0",
+                    "islandora/objective_forms": "^1.12.0",
+                    "lib-libxml": "^2.7"
+                },
+                "type": "drupal-module"
+            },
             "1.2.0": {
                 "name": "Islandora/islandora_xml_forms",
                 "version": "1.2.0",
@@ -9922,6 +10825,28 @@
                     "drupal/xmlsitemap": "^2.0",
                     "islandora/islandora": "^1.11.0",
                     "islandora/islandora_solr_search": "^1.11.0"
+                },
+                "type": "drupal-module"
+            },
+            "1.12.0": {
+                "name": "Islandora/islandora_xmlsitemap",
+                "version": "1.12.0",
+                "version_normalized": "1.12.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Islandora/islandora_xmlsitemap",
+                    "reference": "9a30a6070391e1e7fc393a94939ed5e168bd8e29"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/islandora/islandora_xmlsitemap/archive/9a30a6070391e1e7fc393a94939ed5e168bd8e29.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "drupal/xmlsitemap": "^2.0",
+                    "islandora/islandora": "^1.12.0",
+                    "islandora/islandora_solr_search": "^1.12.0"
                 },
                 "type": "drupal-module"
             },
@@ -10178,6 +11103,27 @@
                 "require": {
                     "islandora/islandora": "^1.11.0",
                     "islandora/php_lib": "^1.11.0"
+                },
+                "type": "drupal-module"
+            },
+            "1.12.0": {
+                "name": "Islandora/objective_forms",
+                "version": "1.12.0",
+                "version_normalized": "1.12.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Islandora/objective_forms",
+                    "reference": "566b88ec8ba3ead498b6237ac0b0b0112f8c9d63"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/islandora/objective_forms/archive/566b88ec8ba3ead498b6237ac0b0b0112f8c9d63.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "islandora/islandora": "^1.12.0",
+                    "islandora/php_lib": "^1.12.0"
                 },
                 "type": "drupal-module"
             },
@@ -10446,6 +11392,26 @@
                 },
                 "type": "drupal-module"
             },
+            "1.12.0": {
+                "name": "Islandora/php_lib",
+                "version": "1.12.0",
+                "version_normalized": "1.12.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Islandora/php_lib",
+                    "reference": "5f7b21f54389bed101356e3699abb1e4b40853fa"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/islandora/php_lib/archive/5f7b21f54389bed101356e3699abb1e4b40853fa.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "islandora/islandora": "^1.12.0"
+                },
+                "type": "drupal-module"
+            },
             "1.2.0": {
                 "name": "Islandora/php_lib",
                 "version": "1.2.0",
@@ -10694,6 +11660,26 @@
                 "dist": {
                     "type": "zip",
                     "url": "https://github.com/islandora/tuque/archive/da68355c6c5fca43a636b2e443c3ced6930752a0.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "drupal/libraries": "^2.3"
+                },
+                "type": "drupal-library"
+            },
+            "1.12.0": {
+                "name": "Islandora/tuque",
+                "version": "1.12.0",
+                "version_normalized": "1.12.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Islandora/tuque",
+                    "reference": "e08128af239c9f86264daa58012795a8b5ec8bc6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/islandora/tuque/archive/e08128af239c9f86264daa58012795a8b5ec8bc6.zip",
                     "reference": null,
                     "shasum": null
                 },
